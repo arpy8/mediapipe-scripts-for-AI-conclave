@@ -1,5 +1,4 @@
 import cv2
-import pygame
 import pyautogui as pg
 from trackers.pose_tracker import PoseDetector
 import webbrowser
