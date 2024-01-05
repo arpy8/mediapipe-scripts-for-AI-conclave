@@ -1,7 +1,6 @@
 import cv2
 import pyautogui as pg
 from trackers.pose_tracker import PoseDetector
-import webbrowser
 
 LEFT_THRESHOLD = RIGHT_THRESHOLD = 160
 DOWN_THRESHOLD = 160
