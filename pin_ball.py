@@ -1,7 +1,8 @@
 import cv2
 import pyautogui as pg
-from trackers.pose_tracker import PoseDetector
 import webbrowser
+
+from trackers.PoseModule import PoseDetector
 
 GAME_URL = 'https://playpager.com/pinball-online/'
 LEFT_THRESHOLD = RIGHT_THRESHOLD = 160
