@@ -1,7 +1,7 @@
 import cv2
 import pygame
 import pyautogui as pg
-from trackers.pose_tracker import PoseDetector
+from trackers.PoseModule import PoseDetector
 import webbrowser
 
 GAME_URL = 'https://elgoog.im/dinosaur-game/3d/'
