@@ -1,6 +1,6 @@
 import cv2
 import pyautogui as pg
-from trackers.pose_tracker import PoseDetector
+from trackers.PoseModule import PoseDetector
 
 LEFT_THRESHOLD = RIGHT_THRESHOLD = 160
 DOWN_THRESHOLD = 160
