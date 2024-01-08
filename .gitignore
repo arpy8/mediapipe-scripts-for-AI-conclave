@@ -5,3 +5,5 @@ __pycache__
 /assets/drum_kit
 
 drum_kit.py
+tekken_3.py
+face_mesh.py
