@@ -7,25 +7,19 @@ from windows_toasts import Toast, WindowsToaster
 
 from trackers.PoseModule import PoseDetector
 from trackers.HandTrackingModule import HandDetector
+
 DELAY = 0.5
 
 THRESH = 50
 THRESH_DIAG = 35
 THRESH_BUG = 70
 
-MUL = 110
-X_main = 3*MUL
-Y_main = 2*MUL
-
-RIGHT = (X_main-100, Y_main+100) #white
-LEFT = (X_main+100, Y_main+100) #black
-
 CHEATS = [
     'HESOYAM', 
     'AEZAKMI', 
     'BUFFMEUP',
     'CVWKXAM',
-    'FULLCLIP',   
+    'FULLCLIP',
     'WORSHIPME',
     'PROFESSIONALKILLER',
 ]
@@ -72,7 +66,7 @@ def main():
     global count, hand_near_face, up_key_pressed
 
     count = 0
-    number_of_hands = 1
+    number_of_hands = 2
 
     breaks_pressed = False
     left_key_pressed    = False
@@ -237,7 +231,7 @@ def main():
         except Exception as e:
             print(e)
 
-        cv2.imshow("Image", raw_img)
+        cv2.imshow("GTA SA", raw_img)
         
         if cv2.waitKey(5) & 0xFF == 27:
             break
