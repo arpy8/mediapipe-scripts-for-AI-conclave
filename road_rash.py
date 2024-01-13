@@ -91,7 +91,7 @@ def main():
                 
         cv2.namedWindow("Image", cv2.WINDOW_NORMAL)
         cv2.resizeWindow("Image", 320, 240)
-        cv2.imshow("Image", raw_img)
+        cv2.imshow("Road Rash", raw_img)
         if cv2.waitKey(5) & 0xFF == 27:
             break
  
