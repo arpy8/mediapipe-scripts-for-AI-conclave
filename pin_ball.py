@@ -84,7 +84,7 @@ def main():
         except Exception as e:
             print(e)
                 
-        cv2.imshow("Image", raw_img)
+        cv2.imshow("Pin Ball Game", raw_img)
         if cv2.waitKey(5) & 0xFF == 27:
             break
  
