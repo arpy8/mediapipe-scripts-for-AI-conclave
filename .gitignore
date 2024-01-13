@@ -3,9 +3,10 @@ __pycache__
 /.conda
 /test
 /assets/drum_kit
+/gta_sa
 
 drum_kit.py
 tekken_3.py
 face_mesh.py
 
-/gta_sa
+tekken_TEST1.py
