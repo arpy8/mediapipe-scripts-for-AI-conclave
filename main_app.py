@@ -1,9 +1,9 @@
-import games.road_rash as rr
-import games.chrome_dino as cd
-import games.motor_rider as mr
-import games.pin_ball as pb
-
 import customtkinter as ctk
+
+import games.pin_ball as pb
+import games.road_rash as rr
+import games.motor_rider as mr
+import games.chrome_dino as cd
 
 
 ctk.set_appearance_mode("dark")
