@@ -4,6 +4,7 @@ __pycache__
 /test
 /assets/drum_kit
 /gta_sa
+/executable
 
 drum_kit.py
 tekken_3.py
